@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+    
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.Menu h1{
+    color: blueviolet;
+}
+.logo-gap{
+    margin: 8px;
+}
+.login{
+    width: 25px;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 40px;
+    color: rgb(235, 69, 18);
+}
+.cart{
+    margin-left: 15px;
+    color: rgb(24, 1, 1);
+}
+.cart:hover{
+    color: chartreuse;
+}
+.line{
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 35px;
+  color: rgb(7, 4, 0);
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+
+}
+.line:hover{
+    color: brown;
+}
+.login-text{
+    color: black;
+    margin-top: -20px;
+    text-decoration: none;
+}
+.login-text:hover{
+    color: chartreuse;
+}
+.cart{
+    
+    text-decoration: none;
+}
+.image-header{
+    background-image: url("index-top.avif");
+    width: 100%;
+    height: 68vh;
+    margin-top: 30px;
+    background-attachment: fixed;
+}
+.headline{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 100px;
+    color: whitesmoke;
+    
+}
+.shop{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    height: 61px;
+    width: 244px;
+    border-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 46px;
+    margin-left: 82.5vh;
+}
+.mid-text{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    margin-top: 75px;
+}
+.mid-text1{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    margin-top: 45px;
+}
+.sellers-pic{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+}
+.sellers-pic h5{
+     color: black;
+     margin-left: 100px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sellers-pic h6{
+    color: brown;
+    margin-left: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.shopallbtn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    height: 61px;
+    width: 245px;
+    border-color: rgb(9, 129, 235);
+    border-radius: 20px;
+    margin-top: 46px;
+    margin-left: 82.5vh;
+}
+.images{
+    margin-top: 100px;
+    display: flex;
+}
+.images2{
+    /* height: 600px;
+    width: 600px; */
+    display: flex;
+}
+.i1{
+    background-image: url("i1.webp");
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+}
+
+.i2{
+    background-image: url("i2.avif");
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.i3{
+    background-image: url("i3.avif");
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    
+}
+
+.i4{
+    background-image: url("i4.webp");
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+}
+.imgs3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
+}
+.ii1{
+    background-image: url("ii1.avif");
+    height: 305px;
+    width: 347px;
+    color: rgb(228, 13, 13);
+    text-align: center;
+    padding: 100px;
+}
+.ii2{
+    background-image: url("ii2.avif");
+    height: 305px;
+    width: 347px;
+    color: rgb(13, 228, 31);
+    text-align: center;
+    padding: 100px;
+}
+.ii3{
+    background-image: url("ii3.avif");
+    height: 305px;
+    width: 347px;
+    color: rgb(13, 167, 228);
+    text-align: center;
+    padding: 100px;
+}
+.lowmid{
+    background-color: blanchedalmond;
+    opacity: 80%;
+}
+.lowtxt{
+    text-align: center;
+    padding-top: 100px;
+    justify-content: center;
+}
+.lowimg{
+    background-image: url("001.png");
+    height: 228px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.low-mid-txt{
+    display: flex;
+    justify-content: center;
+   gap: 100px;
+   padding-bottom: 75px;
+
+}
+.a1{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: italic;
+  color: brown;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #ffffff; 
+    padding: 40px 60px;
+}
+
+
+.footer .company-name {
+    font-size: 24px;
+    color: #A94A4A; 
+    margin-right: 20px;
+}
+
+
+.footer .nav-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px; 
+}
+
+.footer .nav-column h4 {
+    font-weight: bold;
+    margin-bottom: 15px; 
+}
+
+
+.footer .nav-column a {
+    text-decoration: none;
+    color: #000; 
+    margin-bottom: 10px; 
+}
+
+
+.footer .join-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .join-us h4 {
+    font-weight: bold;
+    margin-bottom: 15px; 
+}
+
+.footer .join-us input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    width: 100%; 
+}
+
+.footer .join-us button {
+    padding: 10px 20px;
+    background-color: #A94A4A; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer .nav-column a:hover,
+.footer .join-us button:hover {
+    color: #A94A4A; 
+}
+.img1{
+    border-radius: 50pxS;
+}
